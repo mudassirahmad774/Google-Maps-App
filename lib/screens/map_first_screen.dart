@@ -10,6 +10,7 @@ class LocationScreen extends StatefulWidget {
 }
 
 class _LocationScreenState extends State<LocationScreen> {
+  
   late GoogleMapController mapController;
   LatLng? _initialPosition;
   Set<Marker> _markers = {};
